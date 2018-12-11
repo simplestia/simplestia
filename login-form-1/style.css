@@ -16,15 +16,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 60%;
-  height: 50%;
+  width: 50rem;
+  height: 30rem;
   border: 1px solid #fff;
   border-radius: 20px;
-  padding: 0%1rem;
-}
-
-.box:hover {
-  background: rgba(0, 0, 0, 0.404);
+  padding: 1rem;
 }
 
 h1 {
@@ -41,7 +37,7 @@ input {
   border: none;
   line-height: 1.5;
   padding: 0.5rem;
-  width: 80%;
+  width: 90%;
   color: #000;
 }
 i {
@@ -60,4 +56,10 @@ a {
 a:hover {
   background: #fff;
   color: #000;
+}
+
+/* Extra */
+
+.box:hover {
+  background: rgba(0, 0, 0, 0.404);
 }
