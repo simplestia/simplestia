@@ -1,28 +1,12 @@
-* {
-}
-
 body {
   background: #b8e6e6;
 }
 
-div {
+.box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-i {
-  position: absolute;
-  top: 0.7rem;
-  left: 0.6rem;
-  font-size: 1.5rem;
-  color: #00c8fa;
-  perspective: 600px;
-  transform-style: preserve-3d;
-  transform: rotate(0deg);
-  transition: transform 0.5s ease;
-  cursor: pointer;
 }
 
 input {
@@ -30,21 +14,31 @@ input {
   border-radius: 1rem;
   background: #fff;
   line-height: 3;
-  width: 30rem;
+  /* width: 25rem; */
   padding: 0 0.5rem;
   font-size: 1rem;
-  text-indent: 0.8rem;
   color: #00c8fa;
-  width: 2rem;
-  transition: width 0.9s ease;
-}
-
-input:focus {
   outline: none;
+  text-indent: 0.8rem;
+  width: 2rem;
+  transition: 0.9s ease;
 }
 
 .increase {
   width: 25rem;
+}
+
+.icon {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.6rem;
+  font-size: 1.5rem;
+  color: #00c8fa;
+  /* perspective: 600px;
+  transform-style: preserve-3d; */
+  transform: rotateY(0deg);
+  cursor: pointer;
+  transition: transform 0.5s ease;
 }
 
 .rotate {
