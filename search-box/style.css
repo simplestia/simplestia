@@ -14,7 +14,6 @@ input {
   border-radius: 1rem;
   background: #fff;
   line-height: 3;
-  /* width: 25rem; */
   padding: 0 0.5rem;
   font-size: 1rem;
   color: #00c8fa;
@@ -34,8 +33,6 @@ input {
   left: 0.6rem;
   font-size: 1.5rem;
   color: #00c8fa;
-  /* perspective: 600px;
-  transform-style: preserve-3d; */
   transform: rotateY(0deg);
   cursor: pointer;
   transition: transform 0.5s ease;
